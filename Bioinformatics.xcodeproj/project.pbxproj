@@ -6,11 +6,560 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		E45A6F7B1A2FB929004E12F6 /* ase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ase.cpp; sourceTree = "<group>"; };
+		E45A6F7C1A2FB929004E12F6 /* ase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ase.h; sourceTree = "<group>"; };
+		E45A6F7E1A2FBA84004E12F6 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		E45A6F801A2FBA84004E12F6 /* Doxyfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
+		E45A6F811A2FBA84004E12F6 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E45A6F821A2FBA84004E12F6 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		E45A6F861A2FBA84004E12F6 /* Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
+		E45A6F871A2FBA84004E12F6 /* api_global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = api_global.h; sourceTree = "<group>"; };
+		E45A6F881A2FBA84004E12F6 /* BamAlgorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamAlgorithms.h; sourceTree = "<group>"; };
+		E45A6F891A2FBA84004E12F6 /* BamAlignment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BamAlignment.cpp; sourceTree = "<group>"; };
+		E45A6F8A1A2FBA84004E12F6 /* BamAlignment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamAlignment.h; sourceTree = "<group>"; };
+		E45A6F8B1A2FBA84004E12F6 /* BamAux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamAux.h; sourceTree = "<group>"; };
+		E45A6F8C1A2FBA84004E12F6 /* BamConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamConstants.h; sourceTree = "<group>"; };
+		E45A6F8D1A2FBA84004E12F6 /* BamIndex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamIndex.h; sourceTree = "<group>"; };
+		E45A6F8E1A2FBA84004E12F6 /* BamMultiReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BamMultiReader.cpp; sourceTree = "<group>"; };
+		E45A6F8F1A2FBA84004E12F6 /* BamMultiReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamMultiReader.h; sourceTree = "<group>"; };
+		E45A6F901A2FBA84004E12F6 /* BamReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BamReader.cpp; sourceTree = "<group>"; };
+		E45A6F911A2FBA84004E12F6 /* BamReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamReader.h; sourceTree = "<group>"; };
+		E45A6F921A2FBA84004E12F6 /* BamWriter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BamWriter.cpp; sourceTree = "<group>"; };
+		E45A6F931A2FBA84004E12F6 /* BamWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamWriter.h; sourceTree = "<group>"; };
+		E45A6F941A2FBA84004E12F6 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		E45A6F951A2FBA84004E12F6 /* IBamIODevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBamIODevice.h; sourceTree = "<group>"; };
+		E45A6F981A2FBA84004E12F6 /* BamHeader_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BamHeader_p.cpp; sourceTree = "<group>"; };
+		E45A6F991A2FBA84004E12F6 /* BamHeader_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamHeader_p.h; sourceTree = "<group>"; };
+		E45A6F9A1A2FBA84004E12F6 /* BamMultiMerger_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamMultiMerger_p.h; sourceTree = "<group>"; };
+		E45A6F9B1A2FBA84004E12F6 /* BamMultiReader_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BamMultiReader_p.cpp; sourceTree = "<group>"; };
+		E45A6F9C1A2FBA84004E12F6 /* BamMultiReader_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamMultiReader_p.h; sourceTree = "<group>"; };
+		E45A6F9D1A2FBA84004E12F6 /* BamRandomAccessController_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BamRandomAccessController_p.cpp; sourceTree = "<group>"; };
+		E45A6F9E1A2FBA84004E12F6 /* BamRandomAccessController_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamRandomAccessController_p.h; sourceTree = "<group>"; };
+		E45A6F9F1A2FBA84004E12F6 /* BamReader_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BamReader_p.cpp; sourceTree = "<group>"; };
+		E45A6FA01A2FBA84004E12F6 /* BamReader_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamReader_p.h; sourceTree = "<group>"; };
+		E45A6FA11A2FBA84004E12F6 /* BamWriter_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BamWriter_p.cpp; sourceTree = "<group>"; };
+		E45A6FA21A2FBA84004E12F6 /* BamWriter_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamWriter_p.h; sourceTree = "<group>"; };
+		E45A6FA31A2FBA84004E12F6 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		E45A6FA41A2FBA84004E12F6 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		E45A6FA61A2FBA84004E12F6 /* BamIndexFactory_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BamIndexFactory_p.cpp; sourceTree = "<group>"; };
+		E45A6FA71A2FBA84004E12F6 /* BamIndexFactory_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamIndexFactory_p.h; sourceTree = "<group>"; };
+		E45A6FA81A2FBA84004E12F6 /* BamStandardIndex_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BamStandardIndex_p.cpp; sourceTree = "<group>"; };
+		E45A6FA91A2FBA84004E12F6 /* BamStandardIndex_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamStandardIndex_p.h; sourceTree = "<group>"; };
+		E45A6FAA1A2FBA84004E12F6 /* BamToolsIndex_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BamToolsIndex_p.cpp; sourceTree = "<group>"; };
+		E45A6FAB1A2FBA84004E12F6 /* BamToolsIndex_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamToolsIndex_p.h; sourceTree = "<group>"; };
+		E45A6FAC1A2FBA84004E12F6 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		E45A6FAE1A2FBA84004E12F6 /* BamDeviceFactory_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BamDeviceFactory_p.cpp; sourceTree = "<group>"; };
+		E45A6FAF1A2FBA84004E12F6 /* BamDeviceFactory_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamDeviceFactory_p.h; sourceTree = "<group>"; };
+		E45A6FB01A2FBA84004E12F6 /* BamFile_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BamFile_p.cpp; sourceTree = "<group>"; };
+		E45A6FB11A2FBA84004E12F6 /* BamFile_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamFile_p.h; sourceTree = "<group>"; };
+		E45A6FB21A2FBA84004E12F6 /* BamFtp_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BamFtp_p.cpp; sourceTree = "<group>"; };
+		E45A6FB31A2FBA84004E12F6 /* BamFtp_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamFtp_p.h; sourceTree = "<group>"; };
+		E45A6FB41A2FBA84004E12F6 /* BamHttp_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BamHttp_p.cpp; sourceTree = "<group>"; };
+		E45A6FB51A2FBA84004E12F6 /* BamHttp_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamHttp_p.h; sourceTree = "<group>"; };
+		E45A6FB61A2FBA84004E12F6 /* BamPipe_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BamPipe_p.cpp; sourceTree = "<group>"; };
+		E45A6FB71A2FBA84004E12F6 /* BamPipe_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamPipe_p.h; sourceTree = "<group>"; };
+		E45A6FB81A2FBA84004E12F6 /* BgzfStream_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BgzfStream_p.cpp; sourceTree = "<group>"; };
+		E45A6FB91A2FBA84004E12F6 /* BgzfStream_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BgzfStream_p.h; sourceTree = "<group>"; };
+		E45A6FBA1A2FBA84004E12F6 /* ByteArray_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ByteArray_p.cpp; sourceTree = "<group>"; };
+		E45A6FBB1A2FBA84004E12F6 /* ByteArray_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ByteArray_p.h; sourceTree = "<group>"; };
+		E45A6FBC1A2FBA84004E12F6 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		E45A6FBD1A2FBA84004E12F6 /* HostAddress_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HostAddress_p.cpp; sourceTree = "<group>"; };
+		E45A6FBE1A2FBA84004E12F6 /* HostAddress_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HostAddress_p.h; sourceTree = "<group>"; };
+		E45A6FBF1A2FBA84004E12F6 /* HostInfo_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HostInfo_p.cpp; sourceTree = "<group>"; };
+		E45A6FC01A2FBA84004E12F6 /* HostInfo_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HostInfo_p.h; sourceTree = "<group>"; };
+		E45A6FC11A2FBA84004E12F6 /* HttpHeader_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HttpHeader_p.cpp; sourceTree = "<group>"; };
+		E45A6FC21A2FBA84004E12F6 /* HttpHeader_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpHeader_p.h; sourceTree = "<group>"; };
+		E45A6FC31A2FBA84004E12F6 /* ILocalIODevice_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ILocalIODevice_p.cpp; sourceTree = "<group>"; };
+		E45A6FC41A2FBA84004E12F6 /* ILocalIODevice_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILocalIODevice_p.h; sourceTree = "<group>"; };
+		E45A6FC51A2FBA84004E12F6 /* NetUnix_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetUnix_p.h; sourceTree = "<group>"; };
+		E45A6FC61A2FBA84004E12F6 /* NetWin_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWin_p.h; sourceTree = "<group>"; };
+		E45A6FC71A2FBA84004E12F6 /* RollingBuffer_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RollingBuffer_p.cpp; sourceTree = "<group>"; };
+		E45A6FC81A2FBA84004E12F6 /* RollingBuffer_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RollingBuffer_p.h; sourceTree = "<group>"; };
+		E45A6FC91A2FBA84004E12F6 /* TcpSocket_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TcpSocket_p.cpp; sourceTree = "<group>"; };
+		E45A6FCA1A2FBA84004E12F6 /* TcpSocket_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TcpSocket_p.h; sourceTree = "<group>"; };
+		E45A6FCB1A2FBA84004E12F6 /* TcpSocketEngine_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TcpSocketEngine_p.cpp; sourceTree = "<group>"; };
+		E45A6FCC1A2FBA84004E12F6 /* TcpSocketEngine_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TcpSocketEngine_p.h; sourceTree = "<group>"; };
+		E45A6FCD1A2FBA84004E12F6 /* TcpSocketEngine_unix_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TcpSocketEngine_unix_p.cpp; sourceTree = "<group>"; };
+		E45A6FCE1A2FBA84004E12F6 /* TcpSocketEngine_win_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TcpSocketEngine_win_p.cpp; sourceTree = "<group>"; };
+		E45A6FD01A2FBA84004E12F6 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		E45A6FD11A2FBA84004E12F6 /* SamFormatParser_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SamFormatParser_p.cpp; sourceTree = "<group>"; };
+		E45A6FD21A2FBA84004E12F6 /* SamFormatParser_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamFormatParser_p.h; sourceTree = "<group>"; };
+		E45A6FD31A2FBA84004E12F6 /* SamFormatPrinter_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SamFormatPrinter_p.cpp; sourceTree = "<group>"; };
+		E45A6FD41A2FBA84004E12F6 /* SamFormatPrinter_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamFormatPrinter_p.h; sourceTree = "<group>"; };
+		E45A6FD51A2FBA84004E12F6 /* SamHeaderValidator_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SamHeaderValidator_p.cpp; sourceTree = "<group>"; };
+		E45A6FD61A2FBA84004E12F6 /* SamHeaderValidator_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamHeaderValidator_p.h; sourceTree = "<group>"; };
+		E45A6FD71A2FBA84004E12F6 /* SamHeaderVersion_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamHeaderVersion_p.h; sourceTree = "<group>"; };
+		E45A6FD91A2FBA84004E12F6 /* BamException_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BamException_p.cpp; sourceTree = "<group>"; };
+		E45A6FDA1A2FBA84004E12F6 /* BamException_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BamException_p.h; sourceTree = "<group>"; };
+		E45A6FDB1A2FBA84004E12F6 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		E45A6FDC1A2FBA84004E12F6 /* SamConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamConstants.h; sourceTree = "<group>"; };
+		E45A6FDD1A2FBA84004E12F6 /* SamHeader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SamHeader.cpp; sourceTree = "<group>"; };
+		E45A6FDE1A2FBA84004E12F6 /* SamHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamHeader.h; sourceTree = "<group>"; };
+		E45A6FDF1A2FBA84004E12F6 /* SamProgram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SamProgram.cpp; sourceTree = "<group>"; };
+		E45A6FE01A2FBA84004E12F6 /* SamProgram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamProgram.h; sourceTree = "<group>"; };
+		E45A6FE11A2FBA84004E12F6 /* SamProgramChain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SamProgramChain.cpp; sourceTree = "<group>"; };
+		E45A6FE21A2FBA84004E12F6 /* SamProgramChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamProgramChain.h; sourceTree = "<group>"; };
+		E45A6FE31A2FBA84004E12F6 /* SamReadGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SamReadGroup.cpp; sourceTree = "<group>"; };
+		E45A6FE41A2FBA84004E12F6 /* SamReadGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamReadGroup.h; sourceTree = "<group>"; };
+		E45A6FE51A2FBA84004E12F6 /* SamReadGroupDictionary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SamReadGroupDictionary.cpp; sourceTree = "<group>"; };
+		E45A6FE61A2FBA84004E12F6 /* SamReadGroupDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamReadGroupDictionary.h; sourceTree = "<group>"; };
+		E45A6FE71A2FBA84004E12F6 /* SamSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SamSequence.cpp; sourceTree = "<group>"; };
+		E45A6FE81A2FBA84004E12F6 /* SamSequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamSequence.h; sourceTree = "<group>"; };
+		E45A6FE91A2FBA84004E12F6 /* SamSequenceDictionary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SamSequenceDictionary.cpp; sourceTree = "<group>"; };
+		E45A6FEA1A2FBA84004E12F6 /* SamSequenceDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamSequenceDictionary.h; sourceTree = "<group>"; };
+		E45A6FEB1A2FBA84004E12F6 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		E45A6FEC1A2FBA84004E12F6 /* ExportHeader.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = ExportHeader.cmake; sourceTree = "<group>"; };
+		E45A6FEE1A2FBA84004E12F6 /* bamtools_global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_global.h; sourceTree = "<group>"; };
+		E45A6FF01A2FBA84004E12F6 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		E45A6FF21A2FBA84004E12F6 /* CHANGES */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
+		E45A6FF41A2FBA84004E12F6 /* internal_utils.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = internal_utils.cmake; sourceTree = "<group>"; };
+		E45A6FF51A2FBA84004E12F6 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		E45A6FF61A2FBA84004E12F6 /* CONTRIBUTORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = CONTRIBUTORS; sourceTree = "<group>"; };
+		E45A6FF71A2FBA84004E12F6 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		E45A6FFA1A2FBA84004E12F6 /* gtest-all.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-all.cc"; sourceTree = "<group>"; };
+		E45A6FFB1A2FBA84004E12F6 /* gtest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gtest.h; sourceTree = "<group>"; };
+		E45A6FFC1A2FBA84004E12F6 /* gtest_main.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_main.cc; sourceTree = "<group>"; };
+		E45A6FFD1A2FBA84004E12F6 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		E45A6FFF1A2FBA84004E12F6 /* gtest-all.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-all.cc"; sourceTree = "<group>"; };
+		E45A70001A2FBA84004E12F6 /* gtest-death-test.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-death-test.cc"; sourceTree = "<group>"; };
+		E45A70011A2FBA84004E12F6 /* gtest-filepath.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-filepath.cc"; sourceTree = "<group>"; };
+		E45A70021A2FBA84004E12F6 /* gtest-internal-inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gtest-internal-inl.h"; sourceTree = "<group>"; };
+		E45A70031A2FBA84004E12F6 /* gtest-port.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-port.cc"; sourceTree = "<group>"; };
+		E45A70041A2FBA84004E12F6 /* gtest-printers.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-printers.cc"; sourceTree = "<group>"; };
+		E45A70051A2FBA84004E12F6 /* gtest-test-part.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-test-part.cc"; sourceTree = "<group>"; };
+		E45A70061A2FBA84004E12F6 /* gtest-typed-test.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-typed-test.cc"; sourceTree = "<group>"; };
+		E45A70071A2FBA84004E12F6 /* gtest.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gtest.cc; sourceTree = "<group>"; };
+		E45A70081A2FBA84004E12F6 /* gtest_main.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_main.cc; sourceTree = "<group>"; };
+		E45A700A1A2FBA84004E12F6 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		E45A700B1A2FBA84004E12F6 /* json.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		E45A700C1A2FBA84004E12F6 /* json_batchallocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = json_batchallocator.h; sourceTree = "<group>"; };
+		E45A700D1A2FBA84004E12F6 /* json_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = json_config.h; sourceTree = "<group>"; };
+		E45A700E1A2FBA84004E12F6 /* json_features.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = json_features.h; sourceTree = "<group>"; };
+		E45A700F1A2FBA84004E12F6 /* json_forwards.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = json_forwards.h; sourceTree = "<group>"; };
+		E45A70101A2FBA84004E12F6 /* json_internalarray.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = json_internalarray.inl; sourceTree = "<group>"; };
+		E45A70111A2FBA84004E12F6 /* json_internalmap.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = json_internalmap.inl; sourceTree = "<group>"; };
+		E45A70121A2FBA84004E12F6 /* json_reader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = json_reader.cpp; sourceTree = "<group>"; };
+		E45A70131A2FBA84004E12F6 /* json_reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = json_reader.h; sourceTree = "<group>"; };
+		E45A70141A2FBA84004E12F6 /* json_tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = json_tool.h; sourceTree = "<group>"; };
+		E45A70151A2FBA84004E12F6 /* json_value.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = json_value.cpp; sourceTree = "<group>"; };
+		E45A70161A2FBA84004E12F6 /* json_value.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = json_value.h; sourceTree = "<group>"; };
+		E45A70171A2FBA85004E12F6 /* json_valueiterator.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = json_valueiterator.inl; sourceTree = "<group>"; };
+		E45A70181A2FBA85004E12F6 /* json_writer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = json_writer.cpp; sourceTree = "<group>"; };
+		E45A70191A2FBA85004E12F6 /* json_writer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = json_writer.h; sourceTree = "<group>"; };
+		E45A701A1A2FBA85004E12F6 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E45A701C1A2FBA85004E12F6 /* bamtools.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bamtools.cpp; sourceTree = "<group>"; };
+		E45A701D1A2FBA85004E12F6 /* bamtools_convert.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bamtools_convert.cpp; sourceTree = "<group>"; };
+		E45A701E1A2FBA85004E12F6 /* bamtools_convert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_convert.h; sourceTree = "<group>"; };
+		E45A701F1A2FBA85004E12F6 /* bamtools_count.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bamtools_count.cpp; sourceTree = "<group>"; };
+		E45A70201A2FBA85004E12F6 /* bamtools_count.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_count.h; sourceTree = "<group>"; };
+		E45A70211A2FBA85004E12F6 /* bamtools_coverage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bamtools_coverage.cpp; sourceTree = "<group>"; };
+		E45A70221A2FBA85004E12F6 /* bamtools_coverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_coverage.h; sourceTree = "<group>"; };
+		E45A70231A2FBA85004E12F6 /* bamtools_filter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bamtools_filter.cpp; sourceTree = "<group>"; };
+		E45A70241A2FBA85004E12F6 /* bamtools_filter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_filter.h; sourceTree = "<group>"; };
+		E45A70251A2FBA85004E12F6 /* bamtools_header.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bamtools_header.cpp; sourceTree = "<group>"; };
+		E45A70261A2FBA85004E12F6 /* bamtools_header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_header.h; sourceTree = "<group>"; };
+		E45A70271A2FBA85004E12F6 /* bamtools_index.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bamtools_index.cpp; sourceTree = "<group>"; };
+		E45A70281A2FBA85004E12F6 /* bamtools_index.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_index.h; sourceTree = "<group>"; };
+		E45A70291A2FBA85004E12F6 /* bamtools_merge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bamtools_merge.cpp; sourceTree = "<group>"; };
+		E45A702A1A2FBA85004E12F6 /* bamtools_merge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_merge.h; sourceTree = "<group>"; };
+		E45A702B1A2FBA85004E12F6 /* bamtools_random.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bamtools_random.cpp; sourceTree = "<group>"; };
+		E45A702C1A2FBA85004E12F6 /* bamtools_random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_random.h; sourceTree = "<group>"; };
+		E45A702D1A2FBA85004E12F6 /* bamtools_resolve.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bamtools_resolve.cpp; sourceTree = "<group>"; };
+		E45A702E1A2FBA85004E12F6 /* bamtools_resolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_resolve.h; sourceTree = "<group>"; };
+		E45A702F1A2FBA85004E12F6 /* bamtools_revert.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bamtools_revert.cpp; sourceTree = "<group>"; };
+		E45A70301A2FBA85004E12F6 /* bamtools_revert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_revert.h; sourceTree = "<group>"; };
+		E45A70311A2FBA85004E12F6 /* bamtools_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bamtools_sort.cpp; sourceTree = "<group>"; };
+		E45A70321A2FBA85004E12F6 /* bamtools_sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_sort.h; sourceTree = "<group>"; };
+		E45A70331A2FBA85004E12F6 /* bamtools_split.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bamtools_split.cpp; sourceTree = "<group>"; };
+		E45A70341A2FBA85004E12F6 /* bamtools_split.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_split.h; sourceTree = "<group>"; };
+		E45A70351A2FBA85004E12F6 /* bamtools_stats.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bamtools_stats.cpp; sourceTree = "<group>"; };
+		E45A70361A2FBA85004E12F6 /* bamtools_stats.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_stats.h; sourceTree = "<group>"; };
+		E45A70371A2FBA85004E12F6 /* bamtools_tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_tool.h; sourceTree = "<group>"; };
+		E45A70381A2FBA85004E12F6 /* bamtools_version.h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = bamtools_version.h.in; sourceTree = "<group>"; };
+		E45A70391A2FBA85004E12F6 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		E45A703B1A2FBA85004E12F6 /* bamtools_fasta.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bamtools_fasta.cpp; sourceTree = "<group>"; };
+		E45A703C1A2FBA85004E12F6 /* bamtools_fasta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_fasta.h; sourceTree = "<group>"; };
+		E45A703D1A2FBA85004E12F6 /* bamtools_filter_engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_filter_engine.h; sourceTree = "<group>"; };
+		E45A703E1A2FBA85004E12F6 /* bamtools_filter_properties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_filter_properties.h; sourceTree = "<group>"; };
+		E45A703F1A2FBA85004E12F6 /* bamtools_filter_ruleparser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_filter_ruleparser.h; sourceTree = "<group>"; };
+		E45A70401A2FBA85004E12F6 /* bamtools_options.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bamtools_options.cpp; sourceTree = "<group>"; };
+		E45A70411A2FBA85004E12F6 /* bamtools_options.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_options.h; sourceTree = "<group>"; };
+		E45A70421A2FBA85004E12F6 /* bamtools_pileup_engine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bamtools_pileup_engine.cpp; sourceTree = "<group>"; };
+		E45A70431A2FBA85004E12F6 /* bamtools_pileup_engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_pileup_engine.h; sourceTree = "<group>"; };
+		E45A70441A2FBA85004E12F6 /* bamtools_utilities.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bamtools_utilities.cpp; sourceTree = "<group>"; };
+		E45A70451A2FBA85004E12F6 /* bamtools_utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_utilities.h; sourceTree = "<group>"; };
+		E45A70461A2FBA85004E12F6 /* bamtools_variant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bamtools_variant.h; sourceTree = "<group>"; };
+		E45A70471A2FBA85004E12F6 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		E45A70481A2FBA85004E12F6 /* utils_global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils_global.h; sourceTree = "<group>"; };
+		E45A70491A2FBB13004E12F6 /* Pileup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pileup.cpp; sourceTree = "<group>"; };
+		E45A704A1A2FBB13004E12F6 /* Pileup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pileup.h; sourceTree = "<group>"; };
+		E45A704B1A2FBB1D004E12F6 /* PileupColumn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PileupColumn.cpp; sourceTree = "<group>"; };
+		E45A704C1A2FBB1D004E12F6 /* PileupColumn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PileupColumn.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		E45A6F741A2FB8BB004E12F6 = {
 			isa = PBXGroup;
 			children = (
+				E45A6F7B1A2FB929004E12F6 /* ase.cpp */,
+				E45A6F7D1A2FBA84004E12F6 /* bamtools */,
+				E45A6F7C1A2FB929004E12F6 /* ase.h */,
+				E45A70491A2FBB13004E12F6 /* Pileup.cpp */,
+				E45A704A1A2FBB13004E12F6 /* Pileup.h */,
+				E45A704B1A2FBB1D004E12F6 /* PileupColumn.cpp */,
+				E45A704C1A2FBB1D004E12F6 /* PileupColumn.h */,
 			);
+			sourceTree = "<group>";
+		};
+		E45A6F7D1A2FBA84004E12F6 /* bamtools */ = {
+			isa = PBXGroup;
+			children = (
+				E45A6F7E1A2FBA84004E12F6 /* CMakeLists.txt */,
+				E45A6F7F1A2FBA84004E12F6 /* docs */,
+				E45A6F811A2FBA84004E12F6 /* LICENSE */,
+				E45A6F821A2FBA84004E12F6 /* README */,
+				E45A6F831A2FBA84004E12F6 /* src */,
+			);
+			path = bamtools;
+			sourceTree = "<group>";
+		};
+		E45A6F7F1A2FBA84004E12F6 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				E45A6F801A2FBA84004E12F6 /* Doxyfile */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		E45A6F831A2FBA84004E12F6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E45A6F841A2FBA84004E12F6 /* api */,
+				E45A6FEB1A2FBA84004E12F6 /* CMakeLists.txt */,
+				E45A6FEC1A2FBA84004E12F6 /* ExportHeader.cmake */,
+				E45A6FED1A2FBA84004E12F6 /* shared */,
+				E45A6FEF1A2FBA84004E12F6 /* third_party */,
+				E45A701B1A2FBA85004E12F6 /* toolkit */,
+				E45A703A1A2FBA85004E12F6 /* utils */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		E45A6F841A2FBA84004E12F6 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				E45A6F851A2FBA84004E12F6 /* algorithms */,
+				E45A6F871A2FBA84004E12F6 /* api_global.h */,
+				E45A6F881A2FBA84004E12F6 /* BamAlgorithms.h */,
+				E45A6F891A2FBA84004E12F6 /* BamAlignment.cpp */,
+				E45A6F8A1A2FBA84004E12F6 /* BamAlignment.h */,
+				E45A6F8B1A2FBA84004E12F6 /* BamAux.h */,
+				E45A6F8C1A2FBA84004E12F6 /* BamConstants.h */,
+				E45A6F8D1A2FBA84004E12F6 /* BamIndex.h */,
+				E45A6F8E1A2FBA84004E12F6 /* BamMultiReader.cpp */,
+				E45A6F8F1A2FBA84004E12F6 /* BamMultiReader.h */,
+				E45A6F901A2FBA84004E12F6 /* BamReader.cpp */,
+				E45A6F911A2FBA84004E12F6 /* BamReader.h */,
+				E45A6F921A2FBA84004E12F6 /* BamWriter.cpp */,
+				E45A6F931A2FBA84004E12F6 /* BamWriter.h */,
+				E45A6F941A2FBA84004E12F6 /* CMakeLists.txt */,
+				E45A6F951A2FBA84004E12F6 /* IBamIODevice.h */,
+				E45A6F961A2FBA84004E12F6 /* internal */,
+				E45A6FDC1A2FBA84004E12F6 /* SamConstants.h */,
+				E45A6FDD1A2FBA84004E12F6 /* SamHeader.cpp */,
+				E45A6FDE1A2FBA84004E12F6 /* SamHeader.h */,
+				E45A6FDF1A2FBA84004E12F6 /* SamProgram.cpp */,
+				E45A6FE01A2FBA84004E12F6 /* SamProgram.h */,
+				E45A6FE11A2FBA84004E12F6 /* SamProgramChain.cpp */,
+				E45A6FE21A2FBA84004E12F6 /* SamProgramChain.h */,
+				E45A6FE31A2FBA84004E12F6 /* SamReadGroup.cpp */,
+				E45A6FE41A2FBA84004E12F6 /* SamReadGroup.h */,
+				E45A6FE51A2FBA84004E12F6 /* SamReadGroupDictionary.cpp */,
+				E45A6FE61A2FBA84004E12F6 /* SamReadGroupDictionary.h */,
+				E45A6FE71A2FBA84004E12F6 /* SamSequence.cpp */,
+				E45A6FE81A2FBA84004E12F6 /* SamSequence.h */,
+				E45A6FE91A2FBA84004E12F6 /* SamSequenceDictionary.cpp */,
+				E45A6FEA1A2FBA84004E12F6 /* SamSequenceDictionary.h */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		E45A6F851A2FBA84004E12F6 /* algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				E45A6F861A2FBA84004E12F6 /* Sort.h */,
+			);
+			path = algorithms;
+			sourceTree = "<group>";
+		};
+		E45A6F961A2FBA84004E12F6 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				E45A6F971A2FBA84004E12F6 /* bam */,
+				E45A6FA41A2FBA84004E12F6 /* CMakeLists.txt */,
+				E45A6FA51A2FBA84004E12F6 /* index */,
+				E45A6FAD1A2FBA84004E12F6 /* io */,
+				E45A6FCF1A2FBA84004E12F6 /* sam */,
+				E45A6FD81A2FBA84004E12F6 /* utils */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		E45A6F971A2FBA84004E12F6 /* bam */ = {
+			isa = PBXGroup;
+			children = (
+				E45A6F981A2FBA84004E12F6 /* BamHeader_p.cpp */,
+				E45A6F991A2FBA84004E12F6 /* BamHeader_p.h */,
+				E45A6F9A1A2FBA84004E12F6 /* BamMultiMerger_p.h */,
+				E45A6F9B1A2FBA84004E12F6 /* BamMultiReader_p.cpp */,
+				E45A6F9C1A2FBA84004E12F6 /* BamMultiReader_p.h */,
+				E45A6F9D1A2FBA84004E12F6 /* BamRandomAccessController_p.cpp */,
+				E45A6F9E1A2FBA84004E12F6 /* BamRandomAccessController_p.h */,
+				E45A6F9F1A2FBA84004E12F6 /* BamReader_p.cpp */,
+				E45A6FA01A2FBA84004E12F6 /* BamReader_p.h */,
+				E45A6FA11A2FBA84004E12F6 /* BamWriter_p.cpp */,
+				E45A6FA21A2FBA84004E12F6 /* BamWriter_p.h */,
+				E45A6FA31A2FBA84004E12F6 /* CMakeLists.txt */,
+			);
+			path = bam;
+			sourceTree = "<group>";
+		};
+		E45A6FA51A2FBA84004E12F6 /* index */ = {
+			isa = PBXGroup;
+			children = (
+				E45A6FA61A2FBA84004E12F6 /* BamIndexFactory_p.cpp */,
+				E45A6FA71A2FBA84004E12F6 /* BamIndexFactory_p.h */,
+				E45A6FA81A2FBA84004E12F6 /* BamStandardIndex_p.cpp */,
+				E45A6FA91A2FBA84004E12F6 /* BamStandardIndex_p.h */,
+				E45A6FAA1A2FBA84004E12F6 /* BamToolsIndex_p.cpp */,
+				E45A6FAB1A2FBA84004E12F6 /* BamToolsIndex_p.h */,
+				E45A6FAC1A2FBA84004E12F6 /* CMakeLists.txt */,
+			);
+			path = index;
+			sourceTree = "<group>";
+		};
+		E45A6FAD1A2FBA84004E12F6 /* io */ = {
+			isa = PBXGroup;
+			children = (
+				E45A6FAE1A2FBA84004E12F6 /* BamDeviceFactory_p.cpp */,
+				E45A6FAF1A2FBA84004E12F6 /* BamDeviceFactory_p.h */,
+				E45A6FB01A2FBA84004E12F6 /* BamFile_p.cpp */,
+				E45A6FB11A2FBA84004E12F6 /* BamFile_p.h */,
+				E45A6FB21A2FBA84004E12F6 /* BamFtp_p.cpp */,
+				E45A6FB31A2FBA84004E12F6 /* BamFtp_p.h */,
+				E45A6FB41A2FBA84004E12F6 /* BamHttp_p.cpp */,
+				E45A6FB51A2FBA84004E12F6 /* BamHttp_p.h */,
+				E45A6FB61A2FBA84004E12F6 /* BamPipe_p.cpp */,
+				E45A6FB71A2FBA84004E12F6 /* BamPipe_p.h */,
+				E45A6FB81A2FBA84004E12F6 /* BgzfStream_p.cpp */,
+				E45A6FB91A2FBA84004E12F6 /* BgzfStream_p.h */,
+				E45A6FBA1A2FBA84004E12F6 /* ByteArray_p.cpp */,
+				E45A6FBB1A2FBA84004E12F6 /* ByteArray_p.h */,
+				E45A6FBC1A2FBA84004E12F6 /* CMakeLists.txt */,
+				E45A6FBD1A2FBA84004E12F6 /* HostAddress_p.cpp */,
+				E45A6FBE1A2FBA84004E12F6 /* HostAddress_p.h */,
+				E45A6FBF1A2FBA84004E12F6 /* HostInfo_p.cpp */,
+				E45A6FC01A2FBA84004E12F6 /* HostInfo_p.h */,
+				E45A6FC11A2FBA84004E12F6 /* HttpHeader_p.cpp */,
+				E45A6FC21A2FBA84004E12F6 /* HttpHeader_p.h */,
+				E45A6FC31A2FBA84004E12F6 /* ILocalIODevice_p.cpp */,
+				E45A6FC41A2FBA84004E12F6 /* ILocalIODevice_p.h */,
+				E45A6FC51A2FBA84004E12F6 /* NetUnix_p.h */,
+				E45A6FC61A2FBA84004E12F6 /* NetWin_p.h */,
+				E45A6FC71A2FBA84004E12F6 /* RollingBuffer_p.cpp */,
+				E45A6FC81A2FBA84004E12F6 /* RollingBuffer_p.h */,
+				E45A6FC91A2FBA84004E12F6 /* TcpSocket_p.cpp */,
+				E45A6FCA1A2FBA84004E12F6 /* TcpSocket_p.h */,
+				E45A6FCB1A2FBA84004E12F6 /* TcpSocketEngine_p.cpp */,
+				E45A6FCC1A2FBA84004E12F6 /* TcpSocketEngine_p.h */,
+				E45A6FCD1A2FBA84004E12F6 /* TcpSocketEngine_unix_p.cpp */,
+				E45A6FCE1A2FBA84004E12F6 /* TcpSocketEngine_win_p.cpp */,
+			);
+			path = io;
+			sourceTree = "<group>";
+		};
+		E45A6FCF1A2FBA84004E12F6 /* sam */ = {
+			isa = PBXGroup;
+			children = (
+				E45A6FD01A2FBA84004E12F6 /* CMakeLists.txt */,
+				E45A6FD11A2FBA84004E12F6 /* SamFormatParser_p.cpp */,
+				E45A6FD21A2FBA84004E12F6 /* SamFormatParser_p.h */,
+				E45A6FD31A2FBA84004E12F6 /* SamFormatPrinter_p.cpp */,
+				E45A6FD41A2FBA84004E12F6 /* SamFormatPrinter_p.h */,
+				E45A6FD51A2FBA84004E12F6 /* SamHeaderValidator_p.cpp */,
+				E45A6FD61A2FBA84004E12F6 /* SamHeaderValidator_p.h */,
+				E45A6FD71A2FBA84004E12F6 /* SamHeaderVersion_p.h */,
+			);
+			path = sam;
+			sourceTree = "<group>";
+		};
+		E45A6FD81A2FBA84004E12F6 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E45A6FD91A2FBA84004E12F6 /* BamException_p.cpp */,
+				E45A6FDA1A2FBA84004E12F6 /* BamException_p.h */,
+				E45A6FDB1A2FBA84004E12F6 /* CMakeLists.txt */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		E45A6FED1A2FBA84004E12F6 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				E45A6FEE1A2FBA84004E12F6 /* bamtools_global.h */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		E45A6FEF1A2FBA84004E12F6 /* third_party */ = {
+			isa = PBXGroup;
+			children = (
+				E45A6FF01A2FBA84004E12F6 /* CMakeLists.txt */,
+				E45A6FF11A2FBA84004E12F6 /* gtest-1.6.0 */,
+				E45A70091A2FBA84004E12F6 /* jsoncpp */,
+			);
+			path = third_party;
+			sourceTree = "<group>";
+		};
+		E45A6FF11A2FBA84004E12F6 /* gtest-1.6.0 */ = {
+			isa = PBXGroup;
+			children = (
+				E45A6FF21A2FBA84004E12F6 /* CHANGES */,
+				E45A6FF31A2FBA84004E12F6 /* cmake */,
+				E45A6FF51A2FBA84004E12F6 /* CMakeLists.txt */,
+				E45A6FF61A2FBA84004E12F6 /* CONTRIBUTORS */,
+				E45A6FF71A2FBA84004E12F6 /* COPYING */,
+				E45A6FF81A2FBA84004E12F6 /* fused-src */,
+				E45A6FFD1A2FBA84004E12F6 /* README */,
+				E45A6FFE1A2FBA84004E12F6 /* src */,
+			);
+			path = "gtest-1.6.0";
+			sourceTree = "<group>";
+		};
+		E45A6FF31A2FBA84004E12F6 /* cmake */ = {
+			isa = PBXGroup;
+			children = (
+				E45A6FF41A2FBA84004E12F6 /* internal_utils.cmake */,
+			);
+			path = cmake;
+			sourceTree = "<group>";
+		};
+		E45A6FF81A2FBA84004E12F6 /* fused-src */ = {
+			isa = PBXGroup;
+			children = (
+				E45A6FF91A2FBA84004E12F6 /* gtest */,
+			);
+			path = "fused-src";
+			sourceTree = "<group>";
+		};
+		E45A6FF91A2FBA84004E12F6 /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				E45A6FFA1A2FBA84004E12F6 /* gtest-all.cc */,
+				E45A6FFB1A2FBA84004E12F6 /* gtest.h */,
+				E45A6FFC1A2FBA84004E12F6 /* gtest_main.cc */,
+			);
+			path = gtest;
+			sourceTree = "<group>";
+		};
+		E45A6FFE1A2FBA84004E12F6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E45A6FFF1A2FBA84004E12F6 /* gtest-all.cc */,
+				E45A70001A2FBA84004E12F6 /* gtest-death-test.cc */,
+				E45A70011A2FBA84004E12F6 /* gtest-filepath.cc */,
+				E45A70021A2FBA84004E12F6 /* gtest-internal-inl.h */,
+				E45A70031A2FBA84004E12F6 /* gtest-port.cc */,
+				E45A70041A2FBA84004E12F6 /* gtest-printers.cc */,
+				E45A70051A2FBA84004E12F6 /* gtest-test-part.cc */,
+				E45A70061A2FBA84004E12F6 /* gtest-typed-test.cc */,
+				E45A70071A2FBA84004E12F6 /* gtest.cc */,
+				E45A70081A2FBA84004E12F6 /* gtest_main.cc */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		E45A70091A2FBA84004E12F6 /* jsoncpp */ = {
+			isa = PBXGroup;
+			children = (
+				E45A700A1A2FBA84004E12F6 /* CMakeLists.txt */,
+				E45A700B1A2FBA84004E12F6 /* json.h */,
+				E45A700C1A2FBA84004E12F6 /* json_batchallocator.h */,
+				E45A700D1A2FBA84004E12F6 /* json_config.h */,
+				E45A700E1A2FBA84004E12F6 /* json_features.h */,
+				E45A700F1A2FBA84004E12F6 /* json_forwards.h */,
+				E45A70101A2FBA84004E12F6 /* json_internalarray.inl */,
+				E45A70111A2FBA84004E12F6 /* json_internalmap.inl */,
+				E45A70121A2FBA84004E12F6 /* json_reader.cpp */,
+				E45A70131A2FBA84004E12F6 /* json_reader.h */,
+				E45A70141A2FBA84004E12F6 /* json_tool.h */,
+				E45A70151A2FBA84004E12F6 /* json_value.cpp */,
+				E45A70161A2FBA84004E12F6 /* json_value.h */,
+				E45A70171A2FBA85004E12F6 /* json_valueiterator.inl */,
+				E45A70181A2FBA85004E12F6 /* json_writer.cpp */,
+				E45A70191A2FBA85004E12F6 /* json_writer.h */,
+				E45A701A1A2FBA85004E12F6 /* LICENSE */,
+			);
+			path = jsoncpp;
+			sourceTree = "<group>";
+		};
+		E45A701B1A2FBA85004E12F6 /* toolkit */ = {
+			isa = PBXGroup;
+			children = (
+				E45A701C1A2FBA85004E12F6 /* bamtools.cpp */,
+				E45A701D1A2FBA85004E12F6 /* bamtools_convert.cpp */,
+				E45A701E1A2FBA85004E12F6 /* bamtools_convert.h */,
+				E45A701F1A2FBA85004E12F6 /* bamtools_count.cpp */,
+				E45A70201A2FBA85004E12F6 /* bamtools_count.h */,
+				E45A70211A2FBA85004E12F6 /* bamtools_coverage.cpp */,
+				E45A70221A2FBA85004E12F6 /* bamtools_coverage.h */,
+				E45A70231A2FBA85004E12F6 /* bamtools_filter.cpp */,
+				E45A70241A2FBA85004E12F6 /* bamtools_filter.h */,
+				E45A70251A2FBA85004E12F6 /* bamtools_header.cpp */,
+				E45A70261A2FBA85004E12F6 /* bamtools_header.h */,
+				E45A70271A2FBA85004E12F6 /* bamtools_index.cpp */,
+				E45A70281A2FBA85004E12F6 /* bamtools_index.h */,
+				E45A70291A2FBA85004E12F6 /* bamtools_merge.cpp */,
+				E45A702A1A2FBA85004E12F6 /* bamtools_merge.h */,
+				E45A702B1A2FBA85004E12F6 /* bamtools_random.cpp */,
+				E45A702C1A2FBA85004E12F6 /* bamtools_random.h */,
+				E45A702D1A2FBA85004E12F6 /* bamtools_resolve.cpp */,
+				E45A702E1A2FBA85004E12F6 /* bamtools_resolve.h */,
+				E45A702F1A2FBA85004E12F6 /* bamtools_revert.cpp */,
+				E45A70301A2FBA85004E12F6 /* bamtools_revert.h */,
+				E45A70311A2FBA85004E12F6 /* bamtools_sort.cpp */,
+				E45A70321A2FBA85004E12F6 /* bamtools_sort.h */,
+				E45A70331A2FBA85004E12F6 /* bamtools_split.cpp */,
+				E45A70341A2FBA85004E12F6 /* bamtools_split.h */,
+				E45A70351A2FBA85004E12F6 /* bamtools_stats.cpp */,
+				E45A70361A2FBA85004E12F6 /* bamtools_stats.h */,
+				E45A70371A2FBA85004E12F6 /* bamtools_tool.h */,
+				E45A70381A2FBA85004E12F6 /* bamtools_version.h.in */,
+				E45A70391A2FBA85004E12F6 /* CMakeLists.txt */,
+			);
+			path = toolkit;
+			sourceTree = "<group>";
+		};
+		E45A703A1A2FBA85004E12F6 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E45A703B1A2FBA85004E12F6 /* bamtools_fasta.cpp */,
+				E45A703C1A2FBA85004E12F6 /* bamtools_fasta.h */,
+				E45A703D1A2FBA85004E12F6 /* bamtools_filter_engine.h */,
+				E45A703E1A2FBA85004E12F6 /* bamtools_filter_properties.h */,
+				E45A703F1A2FBA85004E12F6 /* bamtools_filter_ruleparser.h */,
+				E45A70401A2FBA85004E12F6 /* bamtools_options.cpp */,
+				E45A70411A2FBA85004E12F6 /* bamtools_options.h */,
+				E45A70421A2FBA85004E12F6 /* bamtools_pileup_engine.cpp */,
+				E45A70431A2FBA85004E12F6 /* bamtools_pileup_engine.h */,
+				E45A70441A2FBA85004E12F6 /* bamtools_utilities.cpp */,
+				E45A70451A2FBA85004E12F6 /* bamtools_utilities.h */,
+				E45A70461A2FBA85004E12F6 /* bamtools_variant.h */,
+				E45A70471A2FBA85004E12F6 /* CMakeLists.txt */,
+				E45A70481A2FBA85004E12F6 /* utils_global.h */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
